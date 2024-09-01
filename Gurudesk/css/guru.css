@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body{  font-family: "Plus Jakarta Sans", sans-serif;}
+
+
+.contact-button:hover,.gq:hover,.gqw:hover,input[type="submit"],.fblist a:hover,.fta:hover
+{transition:all 0.7s;
+-moz-transition:all  0.6s;
+-ms-transition:all  0.6s;
+-o-transition:all  0.6s;
+    transition-duration:1s; /* Geçiş Süresi 2 Saniye */
+
+-webkit-transition:all  0.6;}
+
+
+a{text-decoration: none!important;}
+
+.navbar-brand{margin-right: 100px;}
+
+.navbar-brand img{width:191px;}
+
+.navbar{padding: 20px 0;border-bottom:1px solid #D5D5D5}
+
+.nav-item a{font-weight: 600;color: #000;}
+
+.nav-item{margin-right: 30px;float: left;}
+
+.nav-right .nav-item:first-child{border-right: 2px solid #D5D5D5;}
+
+.contactbutton{background-color: #34C759;padding: 10px 15px;border-radius: 5px;color: #fff;color: #fff!important;display: block;cursor: pointer;}
+
+.main-section{margin-top: 25px;}
+
+.clsupport{background: #eeeeee;font-size: 10px;font-weight: 700;padding: 10px;border-radius: 5px;left: 0;top: 0;}
+
+.mtext{margin-top: 50px;font-size: 49px;font-weight: 600;}
+
+.mtext span{color: #02A94D;}
+
+.msub{line-height: 30px;}
+
+.gq{
+	background: #34C759;
+    border: unset;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.services-section{
+	background-color: #FCFBF9;
+	padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cgreen{
+	color: #34C759;
+}
+
+.service-text{
+	font-size: 39px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.box-title{
+        font-size: 16px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+.box-bottom{
+        font-size: 16px;
+    color: #545454;
+    line-height: 30px;
+}
+
+.box-top{margin-bottom: 10px;}
+
+.questions{padding-top: 70px;padding-bottom: 70px;}
+
+.faqs{
+        width: 10%;
+    margin: auto;
+    background: #eeeeee;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.faq-title{
+        font-size: 39px;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.question-section{
+    padding-top: 80px;
+}
+
+.accordion-button{
+        font-size: 16px;
+    font-weight: 600;
+}
+
+.accordion-item{margin-bottom: 30px;border:1px solid #EAEAEA;border-radius: 5px;}
+
+.accordion-item:not(:first-of-type){border-top: 1px solid #eaeaea;}
+
+.quest-box span{
+        font-size: 20px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.quest-box p{
+    color: #545454;
+    display: block;
+    line-height: 26px;
+}
+
+.gqw{
+    border: unset;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #292929;
+    border:1px solid #000;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: unset;
+}
+
+.quest-box{margin-bottom: 20px;}
+
+.gr{background-color: #34C759;color: #fff;border: unset;padding: 10px;}
+
+.quest-box:first-child{margin-top: 35px;}
+
+.contact-us{background-color: #F6F1EB;padding-bottom: 50px;}
+
+.ct-right{padding-top: 80px;}
+
+.ct-left{padding: 200px 0 80px 0;}
+
+.gtouch{margin-bottom: 30px;font-size: 10px;font-weight: 700;display: block;width: 100%;}
+
+.ct-title{
+        font-size: 39px;
+    font-weight: 700;
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.ct-text{
+    width: 85%;
+    display: block;
+    color: #545454;
+    line-height: 26px;
+}
+
+.ok p{font-size: 14px;color: #545454;}
+
+.substances{
+    padding: 40px 0;
+}
+
+.ok{float: left;margin-right: 20px;}
+
+.maddeler ul li{list-style: none;    font-size: 16px;
+    color: #545454;
+    margin-bottom: 10px;}
+
+    .maddeler ul li b{margin-right: 10px;}
+
+.maddeler ul{padding-left: 0!important;}
+
+.form{
+        background-color: #fff;
+    border-radius: 5px;
+    padding: 60px 80px;
+}
+
+.form-title{
+        background-color: #E6F6ED;
+    padding: 10px;
+    border-radius: 5px;
+    color: #02A94D;
+    font-weight: 600;
+}
+
+.contact-form{padding-top: 25px;}
+
+.contact-form input[type="text"],.contact-form textarea{
+        width: 100%;
+    border: 1px solid #EAEAEA;
+    padding: 10px;
+    border-radius: 5px;
+    color: #818181;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea{
+height: 120px;
+resize: none;
+}
+
+.contact-form input[type="submit"]{
+        width: 100%;
+    background: #02A94D;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    border: unset;
+}
+
+footer{
+        background: #292929;
+    padding-top: 70px;
+}
+
+.social-icons{padding-top: 35px;}
+
+.social-icons a{
+        margin-right: 25px;
+}
+
+.fttitle{
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.fblist a{
+    width: 100%;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.fblist{padding-bottom: 30px;}
+
+.fttop{border-bottom: 1px solid #fff;}
+
+
+.copyright{
+        color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.ft-bottom{    padding-top: 40px;}
+
+.fta{
+        font-size: 12px;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+
+.ft-bottom select{
+        background: unset;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;}
+
+
+.contactbutton:hover,.gq:hover,.gqw:hover,.contact-form input[type="submit"]:hover{
+    background-color: #5fd47d;
+}
+
+.gqw:hover{border: 1px solid #fff;color: #fff;}
+
+.fblist a:hover,.fta:hover{
+    color: #02A94D;
+}
+
+.accordion-item:hover > .accordion-button{
+    background-color: #5fd47d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iPhone Phone Dikey*/
+@media screen and (min-width: 360px) and (max-width: 1024px)
+
+{
+
+
+.social-icons{padding-bottom: 35px;overflow: hidden;}
+
+.fta{display: none;}
+
+.slide-right img{width: 100%;}
+
+.faqs{width: 25%;}
+
+.accordion-button{font-size: 15px;}
+
+.ct-left{padding: 25px;}
+
+
+.ft-bottom select{width: 100%;}
+
+footer{padding: 25px 10px;}
+
+
+.services-section{padding: 30px 0;}
+
+.question-section{padding: 30px 0;}
+
+.questions{padding: 30px 0;}
+
+.quest-box{padding: 15px;}
+
+.ct-right{padding-top: 0;}
+.substances{overflow: hidden;}
+
+
+.form{padding: 60px 20px;}
+
+.nav-right .nav-item{width: 100%;}
+.contactbutton{width: 30%;}
+
+
+}
+
+
+/* iPhone Phone Yatay*/
+@media only screen  and (min-width: 360px) and (max-width: 1024px) and (orientation: landscape) 
+{
+
+
+.mtext{font-size: 20px;}
+.msub{
+        font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px!important;
+}
+
+.substances{overflow: hidden;}
+
+.footer-right{display: none!important;}
+.social-icons a{margin-right: 5px;}
+
+
+}
+
+
+
+/* iPhone  Tablet Dikey*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) 
+{
+
+.contactbutton{width: 18%;}
+.mtext{font-size: 20px;}
+
+.msub{
+        font-size: 14px;
+    margin-top: 10px !important;
+    line-height: 25px;
+}
+
+.box-title{padding-left: 0;}
+
+.ct-title{font-size: 25px;}
+
+.ct-text{font-size: 14px;}
+
+.wnext{font-size: 14px;}
+
+.maddeler ul li{font-size: 14px;}
+
+.footer-right{display: none!important;}
+
+
+.social-icons a{margin-right: 0;}
+
+.nav-item{margin-right: 0;font-size: 14px;}
+
+.nav-right .nav-item{margin-right: 0;float: left;width: 48%;}
+
+.nav-right .nav-item:nth-child(2){display: none;}
+
+.contactbutton{
+        width: 100%;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+.faqs{width: 15%;}
+
+.social-icons a{margin-right: 5px;}
+.ft-bottom{padding-bottom: 40px;}
+
+}
+
+
+/* iPhone  Tablet Yatay*/
+@media only screen  and (min-width: 768px)   and (max-width: 1024px)  and (orientation: landscape) 
+
+{
+
+
+
+}
